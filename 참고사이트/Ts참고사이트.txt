@@ -1,1 +1,7 @@
+Ts
+https://learn.microsoft.com/ko-kr/visualstudio/javascript/compile-typescript-code-npm?view=vs-2022
 https://heropy.blog/2020/01/27/typescript/
+
+tsconfig
+https://www.typescriptlang.org/tsconfig
+https://typescript-kr.github.io/pages/compiler-options.html

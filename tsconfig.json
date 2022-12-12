@@ -1,9 +1,14 @@
 {
     "compilerOptions": {
-      "strict": true,
-      "target": "ES6",
-      "lib": ["ES2015", "DOM"],
-      "module": "CommonJS"
+        "target": "ES6",
+        "lib": ["ES2015", "DOM"],
+        "sourceMap": true,
+        "outDir": "dist",
+        "module": "CommonJS",
+        "strict": true,
+      "noImplicitAny": false,
+      "noEmitOnError": true,
+      "removeComments": false,
     },
     "include": [
       "src/**/*.ts"
