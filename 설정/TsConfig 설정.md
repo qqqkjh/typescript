@@ -15,9 +15,10 @@
 * sourceMap : bool
     * sourceMap 파일 생성여부
 * strict : bool
-    * 컴파일시 엄격모드로 검사
+    * 컴파일시 엄격모드로 검사 ("use strict";)
 * noImplicitAny : bool
-    * 유추할수 없는 타입을 암묵적으로 Any로 사용하지 않음      
+    * 유추할수 없는 타입을 암묵적으로 Any로 사용하지 않음 
+    * 즉 타입을 명시하지않으면 무조건 컴파일 에러      
 * noEmitOnError : bool
     * 오류가 있는경우 출력 파일을 내보내지 않음
 * removeComments : bool
