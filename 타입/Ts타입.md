@@ -64,3 +64,11 @@ console.log('CHART_CLASS ->', CHART_CLASS);
 WidgetText ->  { W110001: 'Gauge' }
 CHART_CLASS -> { W110001: 'Gauge' }
 ```
+<br><br>
+## Never
+참고사이트(https://ui.toast.com/posts/ko_20220323)  
+공집합처럼 불가능을 나타내는 타입이다 응용이 많아 선행학습후 이후 다시 서술
+```
+//가장 직관적이였던 부분
+const p = Promise.reject('foo') // const p: Promise<never>
+```

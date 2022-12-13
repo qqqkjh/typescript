@@ -20,11 +20,19 @@ const CHART_CLASS = {
     ,W110009 : 'HorizontalBarLine' //가로막대(중첩)
 }
 
-console.log('WidgetType.Gauge -> ' , WidgetType.Gauge)
-console.log('WidgetCode.Gauge -> ' , WidgetCode.Gauge)
-console.log('WidgetText.W110001 -> ' ,WidgetText.W110001)
-console.log('---------------')
-console.log('WidgetType ->' , WidgetType)
-console.log('WidgetCode ->', WidgetCode)
-console.log('WidgetText -> ', WidgetText)
-console.log('CHART_CLASS ->' , CHART_CLASS)
+// console.log('WidgetType.Gauge -> ' , WidgetType.Gauge)
+// console.log('WidgetCode.Gauge -> ' , WidgetCode.Gauge)
+// console.log('WidgetText.W110001 -> ' ,WidgetText.W110001)
+// console.log('---------------')
+// console.log('WidgetType ->' , WidgetType)
+// console.log('WidgetCode ->', WidgetCode)
+// console.log('WidgetText -> ', WidgetText)
+// console.log('CHART_CLASS ->' , CHART_CLASS)
+
+
+//3 Never
+let error: Promise<never>
+error = Promise.reject('error!')
+error.catch((errorMessage)=>{console.log(errorMessage)})
+
+//console.log('error ->', error)

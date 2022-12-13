@@ -51,4 +51,9 @@ console.log('WidgetType ->', WidgetType);
 console.log('WidgetCode ->', WidgetCode);
 console.log('WidgetText -> ', WidgetText);
 console.log('CHART_CLASS ->', CHART_CLASS);
+//3 Never
+let error;
+error = Promise.reject('error!');
+error.catch((errorMessage) => { console.log(errorMessage); });
+//console.log('error ->', error)
 //# sourceMappingURL=theFirstType.js.map
