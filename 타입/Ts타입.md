@@ -4,7 +4,7 @@
 enum WidgetType {Gauge, Pie, HorizontalBar, Radar, Line, VerticalBar, VerticalBarLine, VerticalBarOverlap, HorizontalBarLine}
 
 ```
-$ \Downarrow 컴파일$
+컴파일 &#8595;
 ```
 //.js
 var WidgetType;
