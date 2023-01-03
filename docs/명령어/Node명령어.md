@@ -1,6 +1,7 @@
-# 신규 프로젝트일 경우 -> package.json & package.json-lock 있으면 생략
-npm init
-npm install typescript
+# 신규 프로젝트일 경우
+package.json & package.json-lock 있으면 생략   
+npm init   
+npm install typescript   
 
 
 # node CLI
