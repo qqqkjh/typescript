@@ -1,3 +1,4 @@
 node_modules
 typescript.code-workspace
 dist
+.idea
